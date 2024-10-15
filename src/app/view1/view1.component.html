@@ -1,6 +1,49 @@
-<h5 class="h5">
-  View 1
-</h5>
-<p class="text">
-  At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
-</p>
+<div class="column-layout group">
+  <igx-buttongroup class="button-group">
+    <button igxButton igxRipple>
+      Button
+    </button>
+    <button igxButton igxRipple>
+      Button
+    </button>
+    <button igxButton igxRipple>
+      Button
+    </button>
+  </igx-buttongroup>
+</div>
+<div class="column-layout group_1">
+  <igx-card class="card">
+    <igx-card-header>
+      <h3 igxCardHeaderTitle>
+        Title goes here...
+      </h3>
+      <h5 igxCardHeaderSubtitle>
+        Subtitle goes here...
+      </h5>
+    </igx-card-header>
+    <igx-card-actions class="actions-content">
+      <ng-container igxStart>
+        <button igxButton="flat" igxRipple class="button">
+          Button
+        </button>
+      </ng-container>
+      <ng-container igxEnd>
+        <button igxRipple igxIconButton="flat" class="icon-button">
+          <igx-icon>
+            favorite
+          </igx-icon>
+        </button>
+        <button igxRipple igxIconButton="flat" class="icon-button">
+          <igx-icon>
+            bookmark
+          </igx-icon>
+        </button>
+        <button igxRipple igxIconButton="flat" class="icon-button">
+          <igx-icon>
+            share
+          </igx-icon>
+        </button>
+      </ng-container>
+    </igx-card-actions>
+  </igx-card>
+</div>
