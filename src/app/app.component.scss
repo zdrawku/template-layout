@@ -104,6 +104,8 @@
 .view-container {
   overflow: auto;
   position: relative;
+  width: 1200px;
+  min-width: 1200px;
   max-width: 1300px;
   flex-grow: 1;
   flex-basis: 0;
