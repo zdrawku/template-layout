@@ -3,7 +3,7 @@
 	"version": 1,
 	"newProjectRoot": "projects",
 	"projects": {
-		"untitled-app22": {
+		"my-app": {
 			"projectType": "application",
 			"schematics": {
 				"@schematics/angular:component": {
@@ -17,7 +17,7 @@
 				"build": {
 					"builder": "@angular-devkit/build-angular:application",
 					"options": {
-						"outputPath": "dist/untitled-app22",
+						"outputPath": "dist/my-app",
 						"index": "src/index.html",
 						"browser": "src/main.ts",
 						"polyfills": [
@@ -69,10 +69,10 @@
 					"builder": "@angular-devkit/build-angular:dev-server",
 					"configurations": {
 						"production": {
-							"buildTarget": "untitled-app22:build:production"
+							"buildTarget": "my-app:build:production"
 						},
 						"development": {
-							"buildTarget": "untitled-app22:build:development"
+							"buildTarget": "my-app:build:development"
 						}
 					},
 					"defaultConfiguration": "development"
@@ -80,7 +80,7 @@
 				"extract-i18n": {
 					"builder": "@angular-devkit/build-angular:extract-i18n",
 					"options": {
-						"buildTarget": "untitled-app22:build"
+						"buildTarget": "my-app:build"
 					}
 				},
 				"test": {

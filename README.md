@@ -1,4 +1,4 @@
-# untitled-app (22)
+# My App
 
 This project was generated with [App Builder Code Gen](https://www.infragistics.com/products/appbuilder).
 
